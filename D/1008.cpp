@@ -18,7 +18,7 @@ struct Edge
 struct HeapNode
 {
     int d,u;
-    bool operator <(const HeapNode& rhs) const
+    bool operator <(HeapNode rhs) const
     {
         return d>rhs.d;
     }
